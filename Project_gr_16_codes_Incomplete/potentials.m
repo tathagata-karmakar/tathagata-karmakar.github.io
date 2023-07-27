@@ -1,1 +1,0 @@
-function [ftidal,fmag]=potentials
