@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-97844691-1"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+
+	gtag('config', 'UA-97844691-1');
+	</script>
+        <meta charset="utf-8"/>
+        <title>My Projects</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="http://www.pas.rochester.edu">
+                                <img class="logo-img" src="img/urlogo.jpg" alt="IITK Logo">
+                            </a>
+                        </div>
+			<div class="logo">
+                            <a class="logo-wrap" href="https://www.chapman.edu">
+                                <img class="logo-img" src="img/culogo.png" alt="IITK Logo">
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="index.html">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#illustris">Illustris</a></li>
+								<li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#roche">Roche limits</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#sun">Solar Magnetic Fields</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <!--<div class="promo-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 sm-margin-b-20">
+                        <div class="margin-b-30">
+                            <h1 class="promo-block-title">Tathagata<br/> Karmakar</h1>
+                            <p class="promo-block-text">Senior undergraduate, IIT Kanpur</p>
+                        </div>
+                        <ul class="list-inline">
+							<li><a href="https://twitter.com/k_tathagata" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/tathagata.karmakar.5" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/tathagata-karmakar-378501b8/" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="promo-block-img-wrap">
+                            <img class="promo-block-img img-responsive" src="img/mockup/me_2_1.jpg" align="me_2_1">
+                        </div>
+                    </div>
+                </div>-->
+                <!--// end row -->
+           <!-- </div>
+        </div>-->
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="illustris">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-5 sm-margin-b-60">
+                        <img class="full-width img-responsive" src="img/970x647/rm01.jpg" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="section-seperator margin-b-50">
+                            <div class="margin-b-50">
+                                <div class="margin-b-30">
+                                    <h2>Illustris</h2>
+                                    <p>I am currently working on galaxy size scaling relations. This is a continuation of my work at <a href="https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/">CCA</a> during summer 2017. I am looking at the sizes of the central galaxies and their host dark matter halos in Illustris and IllustrisTNG simulations.</p>
+                                    <p>Image shows stellar mass-halo mass relations for central galaxies (in Illustris) at zero redshift. Red points denote high star forming galaxies and yellow ones denote low star forming. Stay tuned for interesting results.</p>
+                                </div>
+                                <a href="http://www.illustris-project.org/" class="btn-theme btn-theme-md btn-default-bg text-none">Illustris Website</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+		<!-- About -->
+        <div id="roche">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-5 sm-margin-b-60">
+                        <img class="full-height img-responsive" src="img/970x647/rm02.jpg" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="section-seperator margin-b-50">
+                            <div class="margin-b-50">
+                                <div class="margin-b-30">
+                                    <h2>Roche Limits</h2>
+                                    <p>This work was done with Dr. Tapobrata Sarkar (Department of Physics, IIT Kanpur). </p>
+                                    <p>This involved computing Roche limits of stars orbiting in rotating Janis-Newman-Winicour metric. These limits can be very different from those of Kerr metric. Image shows equilibrium density distribution of an orbiting star at Roche limit. Numbers denote fractional density (with respect to central density). For more details and significance of the results see our paper.</p>
+                                </div>
+                                <a href="https://doi.org/10.1007/s10714-018-2408-y" class="btn-theme btn-theme-md btn-default-bg text-none">Paper</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
+		<!-- About -->
+        <div id="sun">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-5 sm-margin-b-60">
+                        <img class="full-width img-responsive" src="img/970x647/rm03.jpg" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="section-seperator margin-b-50">
+                            <div class="margin-b-50">
+                                <div class="margin-b-30">
+                                    <h2>Magnetic fields of the Sun</h2>
+                                    <p>This project was done as a part of Computational Physics course (PHY473a) with Mr. Aniket Maiti.</p>
+                                    <p>Toroidal and polar components of Sun's magnetic field can be written as curl and double curl of two radial vector fields. Assuming the coefficents of these vector fields to be spherical harmonics, one can produce multipole structure of solar magnetic fields.</p>
+                                </div>
+                                <a href="./PHY473_Report.pdf" class="btn-theme btn-theme-md btn-default-bg text-none">Report</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->           
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                           <h2>Contact Me</h2>
+                            <p>In case of any query or issue, feel free to contact me.</p>
+                        </div>
+                    </div>
+                    <!--// end row -->
+
+                    <div class="row">
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Location</h4>
+                            <a>B&L-324, Department of Physics and Astronomy</a><br><a> University of Rochester</a><br>
+							<a>Rochester, NY 14611</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Phone</h4>
+                            <a href="#">+1 585-967-8496</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Email</h4>
+				<a href="mailto:tkarmaka@ur.rochester.edu">tkarmaka@ur.rochester.edu</a>
+                            <a href="mailto:tkarmakar1996@gmail.com">tkarmakar1996@gmail.com</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Web</h4>
+                            <a href="http://pas.rochester.edu/~tathagata/">http://www.pas.rochester.edu/~tathagata/</a>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-11">
+                        <img class="footer-logo" src="img/urlogo.jpg" alt="Logo">
+                    </div>
+		    <div class="col-xs-1">
+                        <img class="footer-logo" src="img/culogo.png" alt="Logo">
+                    </div>
+                    
+                </div>
+                <!--// end row -->
+            </div>
+        </footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+
+    </body>
+    <!-- END BODY -->
+</html>
